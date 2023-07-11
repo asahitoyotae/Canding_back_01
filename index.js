@@ -13,7 +13,7 @@ mongoose.connect(process.env.MONGOOSE_CONNECT, {
 
 app.use(
   cors({
-    origin: ["https://canding-01.vercel.app/", "http://localhost:3000"],
+    origin: ["https://canding-01.vercel.app", "http://localhost:3000"],
   })
 );
 
